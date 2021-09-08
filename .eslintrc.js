@@ -36,7 +36,7 @@ module.exports = {
       { 'ts': 'never' }
     ],
     'prettier/prettier': 'error',
-    'import/no-extraneous-dependencies': ['error', { 'devDependencies': ['**/*.test.ts', '**/*.spec.ts'] }]
+    'import/no-extraneous-dependencies': ['error', { 'devDependencies': ['**/*.test.ts', '**/*.spec.ts', '**/*.e2e-spec.ts'] }]
   },
   settings: {
     'import/resolver': {
